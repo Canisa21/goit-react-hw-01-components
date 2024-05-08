@@ -1,0 +1,44 @@
+.ulCss {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.item {
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    background-color:#E3CE9D;
+    width: 275px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.statusOnline {
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: green;
+    margin: auto 0;
+}
+
+.statusOffline {
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: red;
+    margin: auto 0;
+}
+
+.avatar {
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10%;
+    background-color: #E2E681;
+    margin: auto 0;
+    box-shadow: inset -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
